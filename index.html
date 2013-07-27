@@ -2,9 +2,13 @@
 <html>
 <head>
     <title>Testing ra.js</title>
+    <script src="lib/suncalc/suncalc.js"></script>
     <script src="js/ra.js"></script>
 </head>
 <body>
   <h1>hei </h1>
+  <button onclick="(function() {
+  	alert(Ra.stringifyObject(Ra.position));
+  }());">knapp</button>
 </body>
 </html>
