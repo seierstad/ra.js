@@ -1,3 +1,0 @@
-[submodule "lib/suncalc"]
-	path = lib/suncalc
-	url = https://github.com/seierstad/suncalc.git
